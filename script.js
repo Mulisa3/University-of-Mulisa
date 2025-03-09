@@ -1,5 +1,5 @@
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+// Simple form submission handler
+document.querySelector('form')?.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Thank you for your message! We will respond shortly.');
-    this.reset();
+    alert('Thank you for your message!');
 });
