@@ -2,7 +2,8 @@
   "name": "university-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "serve"
+    "start": "serve -s",
+    "build": "echo 'No build required' && exit 0"
   },
   "dependencies": {
     "serve": "^14.2.0"
